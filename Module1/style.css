@@ -1,0 +1,207 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+#welcomeBanner {
+    text-align: center;
+    padding: 30px;
+    background: url('images/bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+/* Section spacing */
+section {
+    padding: 20px;
+}
+
+/* Heading Styling */
+h2 {
+    color: black;
+    background: white;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 15px;
+}
+
+/* Highlight class */
+.highlight {
+    background-color: yellow;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a:visited {
+    color: lightgray;
+}
+
+/* Event Gallery Images */
+.gallery-img {
+    width: 350px;
+    height: 220px;
+    border: 3px solid black;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form Styling */
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #ddd;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid blue;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Event Card */
+.eventCard {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Video Styling */
+video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #000;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+
+/* Multi-column text */
+.news {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid gray;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    video {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

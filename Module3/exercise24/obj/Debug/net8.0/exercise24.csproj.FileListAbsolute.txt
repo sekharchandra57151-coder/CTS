@@ -1,0 +1,14 @@
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\bin\Debug\net8.0\exercise24.exe
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\bin\Debug\net8.0\exercise24.deps.json
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\bin\Debug\net8.0\exercise24.runtimeconfig.json
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\bin\Debug\net8.0\exercise24.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\bin\Debug\net8.0\exercise24.pdb
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.AssemblyInfoInputs.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.AssemblyInfo.cs
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.csproj.CoreCompileInputs.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\refint\exercise24.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.pdb
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\exercise24.genruntimeconfig.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise24\obj\Debug\net8.0\ref\exercise24.dll

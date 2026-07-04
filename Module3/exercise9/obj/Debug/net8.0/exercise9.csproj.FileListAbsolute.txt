@@ -1,0 +1,14 @@
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\bin\Debug\net8.0\exercise9.exe
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\bin\Debug\net8.0\exercise9.deps.json
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\bin\Debug\net8.0\exercise9.runtimeconfig.json
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\bin\Debug\net8.0\exercise9.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\bin\Debug\net8.0\exercise9.pdb
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.AssemblyInfoInputs.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.AssemblyInfo.cs
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.csproj.CoreCompileInputs.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\refint\exercise9.dll
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.pdb
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\exercise9.genruntimeconfig.cache
+C:\Users\Chandra Sekhar\OneDrive\Desktop\CTS\upskilling\Module3\exercise9\obj\Debug\net8.0\ref\exercise9.dll

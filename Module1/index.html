@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Full Page Background */
+        body {
+            background: url('images/page-bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Banner */
+        #welcomeBanner {
+            background: url('images/bg.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .highlight {
+            background-color: yellow;
+            padding: 5px;
+        }
+
+        .gallery-img {
+            width: 350px;
+            height: 220px;
+            border: 2px solid black;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        table {
+            margin: auto;
+            background: rgba(255,255,255,0.9);
+            border-radius: 8px;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        iframe {
+            display: block;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            background: white;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        /* Location Button */
+        .location-btn {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body onunload="return confirmExit()">
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#events">Events</a> |
+        <a href="#contact">Contact</a> |
+        <a href="help.html" target="_blank">Help</a> |
+        <a href="jquery-demo.html" target="_blank">jQuery Demo</a>
+    </nav>
+
+    <!-- Welcome Banner -->
+    <div id="welcomeBanner">
+        <h1>Welcome to the Local Community Event Portal</h1>
+        <span style="color:red; font-weight:bold;">
+            Special Offer: Free Registration!
+        </span>
+    </div>
+
+    <!-- Home -->
+    <section id="home">
+        <h2 class="highlight">Upcoming Events</h2>
+        <p>Explore exciting events happening in your community.</p>
+    </section>
+
+    <!-- Event Gallery -->
+    <section id="events">
+        <h2>Event Gallery</h2>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="images/event1.jpg"
+                         alt="Music Festival"
+                         title="Music Festival"
+                         class="gallery-img"
+                         ondblclick="enlargeImage(this)">
+                </td>
+
+                <td>
+                    <img src="images/event2.jpg"
+                         alt="Food Carnival"
+                         title="Food Carnival"
+                         class="gallery-img"
+                         ondblclick="enlargeImage(this)">
+                </td>
+
+                <td>
+                    <img src="images/event3.jpg"
+                         alt="Art Exhibition"
+                         title="Art Exhibition"
+                         class="gallery-img"
+                         ondblclick="enlargeImage(this)">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Music Festival</td>
+                <td>Food Carnival</td>
+                <td>Art Exhibition</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Register for Event</h2>
+
+        <form id="eventForm">
+
+            <label>Name:</label>
+            <input type="text"
+                   name="name"
+                   placeholder="Enter your name"
+                   required autofocus>
+
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required>
+
+            <br><br>
+
+            <label>Phone:</label>
+            <input type="text"
+                   id="phone"
+                   placeholder="Enter phone number"
+                   onblur="validatePhone()">
+
+            <br><br>
+
+            <label>Date:</label>
+            <input type="date" required>
+
+            <br><br>
+
+            <label>Event Type:</label>
+            <select id="eventType" onchange="showFee()">
+                <option value="Music">Music</option>
+                <option value="Food">Food</option>
+                <option value="Art">Art</option>
+            </select>
+
+            <p id="fee"></p>
+
+            <label>Feedback:</label>
+            <textarea id="feedback"
+                      placeholder="Write your feedback"
+                      onkeyup="countChars()"></textarea>
+
+            <p>Character Count: <span id="charCount">0</span></p>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+
+            <br><br>
+
+            <output id="confirmation"></output>
+
+        </form>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Event Promo Video</h2>
+
+        <iframe
+            width="700"
+            height="400"
+            src="https://www.youtube.com/embed/u_qFlTu7HTw"
+            title="Event Promo Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <p id="videoMessage"></p>
+    </section>
+
+    <!-- Geolocation -->
+    <section>
+        <h2>Find Nearby Events</h2>
+
+        <br><br>
+
+        <button class="location-btn" onclick="findLocation()">
+            Find Nearby Events
+        </button>
+
+        <p id="location"></p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@community.com</p>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+</html>
