@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-07-11",
+    "temperatureC": 28,
+    "temperatureF": 82,
+    "summary": "Mild"
+  },
+  {
+    "date": "2026-07-12",
+    "temperatureC": 14,
+    "temperatureF": 57,
+    "summary": "Freezing"
+  },
+  {
+    "date": "2026-07-13",
+    "temperatureC": 25,
+    "temperatureF": 76,
+    "summary": "Bracing"
+  },
+  {
+    "date": "2026-07-14",
+    "temperatureC": 40,
+    "temperatureF": 103,
+    "summary": "Balmy"
+  },
+  {
+    "date": "2026-07-15",
+    "temperatureC": -5,
+    "temperatureF": 24,
+    "summary": "Warm"
+  }
+]
