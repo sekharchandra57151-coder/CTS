@@ -1,0 +1,41 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Angular Fundamentals",
+      "code": "ANG101",
+      "credits": 3,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": "3",
+      "name": "Web Development",
+      "code": "WEB201",
+      "credits": 4,
+      "gradeStatus": "failed"
+    },
+    {
+      "id": "4",
+      "name": "Database Basics",
+      "code": "DB202",
+      "credits": 0,
+      "gradeStatus": "pending"
+    }
+  ],
+  "students": [
+    {
+      "name": "abdul",
+      "email": "231fa18129@gmail.com",
+      "id": "b4XvvFNAqKs"
+    }
+  ],
+  "enrollments": [
+    {
+      "studentId": "b4XvvFNAqKs",
+      "courseId": 3,
+      "preferredSemester": "Odd",
+      "id": "BJC43ERlO2E"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

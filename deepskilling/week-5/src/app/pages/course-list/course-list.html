@@ -1,0 +1,33 @@
+<p *ngIf="isLoading$ | async">Loading courses...</p>
+<p *ngIf="errorMessage$ | async as errorMessage" role="alert">{{ errorMessage }}</p>
+
+<section *ngIf="!(isLoading$ | async)">
+  <h1>Available Courses</h1>
+  <label for="course-search">Search courses</label>
+  <input
+    id="course-search"
+    [(ngModel)]="searchTerm"
+    (ngModelChange)="onSearchChange()"
+    placeholder="Search courses" />
+  <p>Total courses: {{ (courses$ | async)?.length || 0 }}</p>
+  <button type="button" (click)="addSampleCourse()">Add Sample Course</button>
+
+  <div *ngIf="(courses$ | async)?.length; else noCourses" class="course-grid">
+    <ng-container *ngFor="let course of courses$ | async; trackBy: trackByCourseId">
+      <app-course-card
+        appHighlight="lightblue"
+        [course]="course"
+        (courseSelected)="openCourse($event)"
+        (enrollRequested)="onEnroll($event)">
+      </app-course-card>
+      <button type="button" (click)="deleteCourse(course.id)">Delete {{ course.name }}</button>
+    </ng-container>
+  </div>
+
+  <p *ngIf="selectedCourseId">Selected course ID: {{ selectedCourseId }}</p>
+  <p *ngIf="selectedCourseId">Enrolled students: {{ selectedStudents.length }}</p>
+</section>
+
+<ng-template #noCourses>
+  <p>No courses available.</p>
+</ng-template>

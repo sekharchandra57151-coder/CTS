@@ -1,0 +1,14 @@
+<section>
+  <h1>Student Profile</h1>
+  <h2>Enrolled Courses</h2>
+
+  <ul *ngIf="(enrolledCourses$ | async)?.length; else noEnrollments">
+    <li *ngFor="let course of enrolledCourses$ | async">
+      {{ course.name }} ({{ course.code }})
+    </li>
+  </ul>
+
+  <ng-template #noEnrollments>
+    <p>No courses enrolled yet.</p>
+  </ng-template>
+</section>

@@ -1,0 +1,28 @@
+section {
+  margin: 3rem auto;
+  max-width: 900px;
+  padding: 0 1.5rem;
+}
+
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.stats-row div {
+  background: #eef4fb;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+button,
+input {
+  margin-top: 1.5rem;
+  padding: 0.65rem 0.9rem;
+}
+
+label {
+  display: block;
+  margin-top: 1.5rem;
+}

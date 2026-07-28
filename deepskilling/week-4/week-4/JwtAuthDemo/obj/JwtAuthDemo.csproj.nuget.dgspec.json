@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ivskarthik/Desktop/CTS/deepSkilling/week-4/JwtAuthDemo/JwtAuthDemo.csproj": {}
+    "C:\\Users\\Chandra Sekhar\\OneDrive\\Desktop\\CTS\\deepskilling\\week-4\\week-4\\JwtAuthDemo\\JwtAuthDemo.csproj": {}
   },
   "projects": {
-    "/Users/ivskarthik/Desktop/CTS/deepSkilling/week-4/JwtAuthDemo/JwtAuthDemo.csproj": {
+    "C:\\Users\\Chandra Sekhar\\OneDrive\\Desktop\\CTS\\deepskilling\\week-4\\week-4\\JwtAuthDemo\\JwtAuthDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ivskarthik/Desktop/CTS/deepSkilling/week-4/JwtAuthDemo/JwtAuthDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Chandra Sekhar\\OneDrive\\Desktop\\CTS\\deepskilling\\week-4\\week-4\\JwtAuthDemo\\JwtAuthDemo.csproj",
         "projectName": "JwtAuthDemo",
-        "projectPath": "/Users/ivskarthik/Desktop/CTS/deepSkilling/week-4/JwtAuthDemo/JwtAuthDemo.csproj",
-        "packagesPath": "/Users/ivskarthik/.nuget/packages/",
-        "outputPath": "/Users/ivskarthik/Desktop/CTS/deepSkilling/week-4/JwtAuthDemo/obj/",
+        "projectPath": "C:\\Users\\Chandra Sekhar\\OneDrive\\Desktop\\CTS\\deepskilling\\week-4\\week-4\\JwtAuthDemo\\JwtAuthDemo.csproj",
+        "packagesPath": "C:\\Users\\Chandra Sekhar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Chandra Sekhar\\OneDrive\\Desktop\\CTS\\deepskilling\\week-4\\week-4\\JwtAuthDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ivskarthik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Chandra Sekhar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.422/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.422/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

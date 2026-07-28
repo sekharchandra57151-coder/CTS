@@ -1,0 +1,19 @@
+nav {
+  align-items: center;
+  background: #1e3a5f;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+nav > a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 0;
+}
